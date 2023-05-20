@@ -1,0 +1,23 @@
+{
+    "name": "swizcloud/cpanel-api-sdk-php",
+    "version": "1.0.0",
+    "description": "cPanel API PHP SDK",
+    "authors": [
+        {
+            "name": "Neoistone Hosting",
+            "email": "dev@neoistone.com"
+        },
+        {
+            "name": "Nicolas BAUD",
+            "email": "nicolas.baud@swiz.cloud"
+        }
+    ],
+    "require": {
+        "php": "^7.4||^8.0||^8.1||^8.2"
+    },
+    "autoload": {
+        "classmap": [
+	          "src/class.whm.php"
+	      ]
+    }
+}
